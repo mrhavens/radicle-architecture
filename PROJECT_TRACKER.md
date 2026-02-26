@@ -118,6 +118,15 @@ radicle-architecture/
 ### Turn 9 (2026-02-26 ~11:25 CST)
 - Resources & External Analysis
 - Created WHITEPAPER.md - Official Radicle resources
+
+### Turn 10 (2026-02-26 ~11:35 CST)
+- Radicle 2.0 Proposal
+- Created PROPOSAL.md - Complete next-generation architecture
+  - 8 key proposals: HD keys, DHT, tiered storage, federated search, etc.
+  - Full Rust code specifications for each component
+  - Database schemas
+  - Implementation roadmap
+  - Connection to RWD (spiritual foundation)
   - Cataloged 30+ radicle-dev repos
   - Documented: heartwood, radicle-link, whitepaper, surf
   - Added relationship diagram (whitepaper → link → heartwood)

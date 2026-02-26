@@ -106,6 +106,13 @@ radicle-architecture/
 ### Turn 6 (2026-02-26 ~11:05 CST)
 - Phase 4: Collaborative Objects
 - Created COB.md - CRDT-based issues, patches, reviews
+
+### Turn 7 (2026-02-26 ~11:10 CST)
+- Phase 5: CLI
+- Created CLI.md - Command-line interface
+  - Commands: auth, init, clone, push, pull, sync
+  - COB commands: issue, patch, review
+  - Network: follow, seed, peers
   - Stored in Git, not database
   - CRU interface (no delete)
   - Offline-first with eventual consistency

@@ -91,6 +91,13 @@ radicle-architecture/
 - Created radicle-architecture repo
 - Initial docs: README.md, ARCHITECTURE.md, CRATES.md
 
+### Turn 3 (2026-02-26 10:50 CST)
+- Phase 2: Identity system
+- Created IDENTITY.md - Cryptographic identity foundation
+  - DID format: did:key:z6Mkr...
+  - Radicle URN: rad:z...
+  - Delegation and thresholds
+
 ---
 
 ## Key Source Files Identified

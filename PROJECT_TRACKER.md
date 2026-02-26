@@ -114,6 +114,13 @@ radicle-architecture/
 ### Turn 8 (2026-02-26 ~11:15 CST)
 - Phase 6: Deep Dives
 - Created DEEP-DIVE.md - Protocol, persistence, security
+
+### Turn 9 (2026-02-26 ~11:25 CST)
+- Resources & External Analysis
+- Created WHITEPAPER.md - Official Radicle resources
+  - Cataloged 30+ radicle-dev repos
+  - Documented: heartwood, radicle-link, whitepaper, surf
+  - Added relationship diagram (whitepaper → link → heartwood)
   - Gossip: discovery, replication, interest filtering, fetch protocol
   - Persistence: Git as database, checkpointing via refs
   - Security: Ed25519, PoW, COB signatures, attack vectors

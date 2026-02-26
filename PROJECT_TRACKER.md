@@ -94,6 +94,14 @@ radicle-architecture/
 ### Turn 3 (2026-02-26 10:50 CST)
 - Phase 2: Identity system
 - Created IDENTITY.md - Cryptographic identity foundation
+
+### Turn 4 (2026-02-26 ~10:55 CST)
+- Phase 3: Protocol
+- Created PROTOCOL.md - P2P gossip protocol
+  - Message types: Subscribe, Announcement (Node/Inventory/Refs), Info, Ping/Pong
+  - Wire format: Binary encoding with signatures
+  - Proof-of-work for spam prevention
+  - State machine: Connecting → Handshake → Gossiping → Shutdown
   - DID format: did:key:z6Mkr...
   - Radicle URN: rad:z...
   - Delegation and thresholds

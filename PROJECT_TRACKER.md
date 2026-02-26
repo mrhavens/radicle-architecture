@@ -102,6 +102,14 @@ radicle-architecture/
 ### Turn 5 (2026-02-26 ~11:00 CST)
 - Phase 3: Node Daemon
 - Created NODE.md - Daemon architecture
+
+### Turn 6 (2026-02-26 ~11:05 CST)
+- Phase 4: Collaborative Objects
+- Created COB.md - CRDT-based issues, patches, reviews
+  - Stored in Git, not database
+  - CRU interface (no delete)
+  - Offline-first with eventual consistency
+  - Cryptographic signatures
   - Runtime: Initialization, storage, databases
   - Reactor: Event loop using mio
   - Service: Gossip protocol handler

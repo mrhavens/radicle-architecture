@@ -110,6 +110,13 @@ radicle-architecture/
 ### Turn 7 (2026-02-26 ~11:10 CST)
 - Phase 5: CLI
 - Created CLI.md - Command-line interface
+
+### Turn 8 (2026-02-26 ~11:15 CST)
+- Phase 6: Deep Dives
+- Created DEEP-DIVE.md - Protocol, persistence, security
+  - Gossip: discovery, replication, interest filtering, fetch protocol
+  - Persistence: Git as database, checkpointing via refs
+  - Security: Ed25519, PoW, COB signatures, attack vectors
   - Commands: auth, init, clone, push, pull, sync
   - COB commands: issue, patch, review
   - Network: follow, seed, peers

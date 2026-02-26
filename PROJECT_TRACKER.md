@@ -98,6 +98,14 @@ radicle-architecture/
 ### Turn 4 (2026-02-26 ~10:55 CST)
 - Phase 3: Protocol
 - Created PROTOCOL.md - P2P gossip protocol
+
+### Turn 5 (2026-02-26 ~11:00 CST)
+- Phase 3: Node Daemon
+- Created NODE.md - Daemon architecture
+  - Runtime: Initialization, storage, databases
+  - Reactor: Event loop using mio
+  - Service: Gossip protocol handler
+  - Storage: Git with COB extensions
   - Message types: Subscribe, Announcement (Node/Inventory/Refs), Info, Ping/Pong
   - Wire format: Binary encoding with signatures
   - Proof-of-work for spam prevention
